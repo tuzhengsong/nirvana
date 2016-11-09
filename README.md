@@ -12,7 +12,8 @@ int a,b,d,i,j,k,m;
 		   b = b / 10; 
 		   m = m++; 
 	   } 
-	   for ( i = m; i > 0; i-- ) { 
+	  
+	  for ( i = m; i > 0; i-- ) { 
 		   d = 1; 
 		   for ( j = 0; j < i; j++ ) 
 			   d = d * 10; 
